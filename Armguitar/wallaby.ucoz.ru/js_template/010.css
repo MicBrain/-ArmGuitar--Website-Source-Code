@@ -1,0 +1,44 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+
+#menubar { margin-bottom: 12px; }
+.mbar { height: 52px; background: url("../menu/mbar.png") no-repeat; }
+.mbar .mbar { background-position: 100% -52px; }
+.mbar .mbar .mbar { background-position: 0 -104px; background-repeat: repeat-x; }
+.menubar { height: 47px; background: #3f4b51 url("../menu/mbar.jpg") no-repeat 100% 0; }
+.menubar ul { line-height: 26px; margin-top: 10px; text-transform: uppercase; }
+.menubar ul li, .menubar ul a, .menubar ul a b { height: 26px; float: left; }
+.menubar ul a { margin-right: 1px; color: #fff; background: url("../menu/topmenu.png") no-repeat 0 -999px; }
+.menubar ul a b { cursor: pointer; padding: 0 10px; background: url("../menu/topmenu.png") no-repeat 0 -999px; }
+.menubar ul a:hover { background-position: 0 0; }
+.menubar ul a:hover b { background-position: 100% -26px; }				
+.menubar ul .sublnk a { background-position: 0 -104px; }
+.menubar ul .sublnk a b { padding-right: 25px; background-position: 100% -130px; }
+.menubar ul .sublnk a:hover, .menubar ul .sublnk.selected a { background-position: 0 -52px; }
+.menubar ul .sublnk a:hover b, .menubar ul .sublnk.selected a b { padding-right: 25px; background-position: 100% -78px; }
+.menubar ul .sublnk { position: relative; }
+.menubar ul li ul { width: 200px; margin: 0; top: 26px; left: 0; position: absolute; z-index: 9999; display: none; }
+.menubar ul li ul li a, .menubar ul li ul li, .menubar ul li ul li a b { background: none; float: none; height: auto; display: block; line-height: normal; text-transform: none; }
+.menubar ul li ul li { padding: 0; }
+.menubar ul li ul li a { color: #fff; padding: 6px 0; width: 100%; border-bottom: 1px solid #3f4b51; background: #4d5c64; opacity:0.9; -moz-opacity:0.9; filter:alpha(opacity=90);
+}
+.menubar ul li ul li a:hover { background-color: #63767f; }
+.dpad { margin: 0 15px; }		
+.headlinks ul li a, .menubar ul a, .lmenu li a, #topmenu a, #popular ul li a, .navigation a, .argmore a, .addcombtn, .reply a { text-decoration: none !important; }
+p { margin-bottom: 0.4em; }
+.hrss { float: right; margin-top: 15px; padding-top: 18px; width: 18px; background: url("../menu/rsshead.png") no-repeat; }
+.lcol { float: left; } .rcol { float: right; }
+.reset, .reset li { list-style: none; padding: 0; margin: 0; }
+a img  { border: 0 none; }
+input, textarea, select, button, body { font: 12px/16px Arial, Helvetica, sans-serif; }
+ul { margin: 0 0 18px 2em; list-style: disc outside; }
+.thide, .htmenu span { overflow: hidden; display: block; height: 0; line-height: normal; }
+
+
+
+
+
+
+
+
+
+
